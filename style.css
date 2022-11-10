@@ -160,7 +160,7 @@
     font-family: 'Tinos', serif;
     font-size: 26px;
     font-weight: 400;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 .card_image {
@@ -186,4 +186,84 @@
     font-size: 26px;
     font-weight: 400;
     color: #656363;
+}
+
+.history {
+margin-top: 166px;
+}
+
+.history_title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+    
+}
+
+.history_title span{
+    color: #BC9060;
+}
+
+.history_desc {
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history_number {
+     display: flex;
+     width: 444px;
+     justify-content: center;
+     margin-top: 40px;
+     margin-left: 30px;
+}
+
+.number_item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px; 
+    color: #BC9060;
+}
+
+.number_item span {
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+.history_images {
+    position: relative;
+}
+.history_holder {
+    display: flex;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    width: 233px;
+    height: 300px;
+    top: 54px;
+    left: 211px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 2;
+    width: 255px;
+    height: 430px;
+    top: 10px;
+    left: 368px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 999;
+    width: 254px;
+    height: 300px;
+    top: 187px;
+    left: 476px;
 }
