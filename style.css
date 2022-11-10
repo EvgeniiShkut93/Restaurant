@@ -145,3 +145,45 @@
  .header_button:hover {
     background-color: #84430e;
  }
+
+.card_holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #FFFFFF;
+    margin-top: -80px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.card_image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card_title span {
+    color: #BC9060;
+}
+
+
+.card_desc {
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
