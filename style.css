@@ -3,7 +3,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 .container {
-    margin: 0px 166px;
+    width: 100%;
+    padding: 0px 185px;
 } 
 
 .header {
@@ -369,3 +370,104 @@ padding-bottom: 182px;
 .burger_menu_edit:not(:first-child) {
    padding-top: 134px; 
 }
+
+.all_burger_menu {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/img/all_menu_BG.png);
+    max-width: 100%;
+    height: 1034px;
+}
+
+.all_burgers_menu {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #FFFF;
+    padding-top: 98px;
+    padding-left: 589px;
+}
+
+.block_burgers {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 138px;
+    
+}
+.burger_block {
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+}
+.burger_recommended {
+    background-color: #D67E34;
+    width: 124px;
+    height: 36px;
+    color: black;
+}
+
+.burger_recomended {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.burger_img {
+    padding-top: 80px;
+    width: 300px;
+    height: 231px;
+    background-image: url(/img/BURGER_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.edit_420 {
+    position:relative;
+    font-size: 30px;
+    left: 150px;
+    top: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: #D67E34;
+    color: #FFFF;
+    border: 7px solid #FFFF;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger_name {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+
+.burger_info {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.burger_button_2 {
+    background-color: #D67E34;
+    width: 220px;
+    height: 50px;  
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.burger_finish {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 30px;
+}
+
